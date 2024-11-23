@@ -1,0 +1,150 @@
+.blog-items-listss{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 30px;
+   
+}
+
+.blog-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(6, 6, 177);
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(10, 118, 126);
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .blog-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .desc{
+        width: 300px;
+        overflow: auto;
+    }
+}
+
+
+.blog-items:hover{
+    box-shadow: 0px 0px 6px 1px ;
+    transition: ease-in-out 0.3s;
+    background-color: rgb(244, 247, 247);
+}
+
+.title{
+    font-size: 25px;
+}
+
+.card-data p{
+    font-size: 18px;
+}
+
+/* .card-data{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} */
+
+span{
+    color: rgb(187, 128, 50);
+}
+
+
+.two-btns{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.login-btn{
+    padding: 4px;
+    font-size: 14px;
+    width: 90px;
+    border-radius: 30px;
+    border: 1px solid rgb(6, 6, 177);
+    outline: none;
+    background-color: transparent;
+    letter-spacing: 1px;
+    color: rgb(6, 6, 177);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.join-btn{
+    padding: 4px;
+    font-size: 14px;
+    width: 90px;
+    border-radius: 30px;
+    border: 1px solid rgb(6, 6, 177);
+    outline: none;
+    background-color: rgb(6, 6, 177);
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.login-btn:hover{
+    background-color: rgb(209, 101, 82);
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.join-btn:hover{
+    background-color: #fff;
+    color: rgb(6, 6, 177);
+    transition: ease-in-out 0.3s;
+}
+
+.nodata{
+    text-align: center;
+    font-size: 30px ;
+    font-weight: 600;
+    
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.search-field{
+    padding: 8px;
+    border: 1px solid rgb(6, 6, 177);
+    border-radius: 5px 0px 0px 5px;
+    font-size: 16px;
+    outline: none;
+}
+.search-btn{
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid rgb(6, 6, 177);
+    cursor: pointer;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.viewtask-container{
+    width: 100%;
+}
+
+.o{
+    text-align: center;
+}

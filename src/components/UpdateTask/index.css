@@ -1,0 +1,121 @@
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.add-post-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    max-width:100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+  
+   height: 30px;
+}
+.add-text{
+    font-size: 25px;
+    color: rgb(6, 6, 177);
+}
+.add-post-btn{
+    border: 1px solid rgb(6, 6, 177);;
+    outline: none;
+    padding: 6px;
+    width: 100px;
+    color: rgb(6, 6, 177);
+    background-color: transparent;
+    border-radius: 5px;
+}
+.add-post-btn:hover{
+    background-color: rgb(6, 6, 177);
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px 25px 15px 15px;
+    margin: 20px 0px;
+    border: 1px solid rgb(6, 6, 177);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.post-label{
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+.input-element{
+    width: 100%;
+    border: 1px solid rgb(6, 6, 177);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(6, 6, 177);
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.desc-input{
+    width: 100%;
+    border: 1px solid rgb(6, 6, 177);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(6, 6, 177);
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.save-btn{
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(6, 6, 177);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#addPostForm{
+    display: none;
+}
+
+
+
+@media screen  and (max-width: 900px) {
+    .blog-item{
+        width: 270px;
+        max-width: 100%;
+    }
+}
